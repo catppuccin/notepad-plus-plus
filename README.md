@@ -37,9 +37,9 @@
 ## Usage
 
 1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+2. Open `%AppData%\Roaming\Notepad++\themes`
+3. Drag the `.xml` files into the folder
+4. In Notepad++: Settings > Style Configurator > Select theme > `catppuccin-...`
 
 ## 🙋 FAQ (optional)
 
