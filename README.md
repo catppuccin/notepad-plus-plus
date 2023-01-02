@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/preview.webp"/>
+	<img src="https://raw.githubusercontent.com/InvitedToHell/notepad++/main/assets/previews/preview.webp"/>
 </p>
 
 ## Previews
@@ -34,6 +34,7 @@
 <img src="https://hellyy.ml/files/bx26pylhu4.png"/>
 </details>
 
+
 ## Usage
 
 1. Clone this repository locally
@@ -41,14 +42,222 @@
 3. Drag the `.xml` files into the folder
 4. In Notepad++: Settings > Style Configurator > Select theme > `catppuccin-...`
 
-## 🙋 FAQ (optional)
-
--	Q: **_"Where can I find the doc?"_**\
-	A: Run `:help theme`
-
-## 💝 Thanks to
-
-- [Human](https://github.com/catppuccin)
+<details>
+<summary>🌻 Latte</summary>
+<ol>
+<li>In Notepad++: Settings > Preferences > Darkmode > Enable Darkmode</li>
+<li>Then customize the following tones:</li>
+<table>
+<tr>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>Top</td>
+<td>rgb(239, 241, 245)</td>
+</tr>
+<tr>
+<td>Menu hot track</td>
+<td>rgb(239, 241, 245)</td>
+</tr>
+<tr>
+<td>Active</td>
+<td>rgb(204, 208, 218)</td>
+</tr>
+<tr>
+<td>Main</td>
+<td>rgb(239, 241, 245)</td>
+</tr>
+<tr>
+<td>Error</td>
+<td>rgb(210, 15, 57)</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>rgb(76, 79, 105)</td>
+</tr>
+<tr>
+<td>Darker Text</td>
+<td>rgb(92, 95, 119)</td>
+</tr>
+<tr>
+<td>Disabled Text</td>
+<td>rgb(108, 111, 133)</td>
+</tr>
+<tr>
+<td>Edge</td>
+<td>rgb(230, 233, 239)</td>
+</tr>
+<tr>
+<td>Link</td>
+<td>rgb(220, 138, 120)</td>
+</tr>
+</table>
+</details>
+</ol>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<ol>
+<li>In Notepad++: Settings > Preferences > Darkmode > Enable Darkmode</li>
+<li>Then customize the following tones:</li>
+<table>
+<tr>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>Top</td>
+<td>rgb(48, 52, 70)</td>
+</tr>
+<tr>
+<td>Menu hot track</td>
+<td>rgb(48, 52, 70)</td>
+</tr>
+<tr>
+<td>Active</td>
+<td>rgb(81, 87, 109)</td>
+</tr>
+<tr>
+<td>Main</td>
+<td>rgb(48, 52, 70)</td>
+</tr>
+<tr>
+<td>Error</td>
+<td>rgb(231, 130, 132)</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>rgb(198, 208, 245)</td>
+</tr>
+<tr>
+<td>Darker Text</td>
+<td>rgb(181, 191, 226)</td>
+</tr>
+<tr>
+<td>Disabled Text</td>
+<td>rgb(165, 173, 206) 	hsl</td>
+</tr>
+<tr>
+<td>Edge</td>
+<td>rgb(131, 139, 167)</td>
+</tr>
+<tr>
+<td>Link</td>
+<td>rgb(238, 190, 190)</td>
+</tr>
+</table>
+</details>
+</ol>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<ol>
+<li>In Notepad++: Settings > Preferences > Darkmode > Enable Darkmode</li>
+<li>Then customize the following tones:</li>
+<table>
+<tr>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>Top</td>
+<td>rgb(36, 39, 58)</td>
+</tr>
+<tr>
+<td>Menu hot track</td>
+<td>rgb(36, 39, 58)</td>
+</tr>
+<tr>
+<td>Active</td>
+<td>rgb(73, 77, 100)</td>
+</tr>
+<tr>
+<td>Main</td>
+<td>rgb(36, 39, 58)</td>
+</tr>
+<tr>
+<td>Error</td>
+<td>rgb(237, 135, 150)</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>rgb(202, 211, 245)</td>
+</tr>
+<tr>
+<td>Darker Text</td>
+<td>rgb(184, 192, 224))</td>
+</tr>
+<tr>
+<td>Disabled Text</td>
+<td>rgb(165, 173, 203) 	hsl</td>
+</tr>
+<tr>
+<td>Edge</td>
+<td>rgb(110, 115, 141)</td>
+</tr>
+<tr>
+<td>Link</td>
+<td>rgb(240, 198, 198)</td>
+</tr>
+</table>
+</details>
+</ol>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<ol>
+<li>In Notepad++: Settings > Preferences > Darkmode > Enable Darkmode</li>
+<li>Then customize the following tones:</li>
+<table>
+<tr>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>Top</td>
+<td>rgb(24, 24, 37)</td>
+</tr>
+<tr>
+<td>Menu hot track</td>
+<td>rgb(24, 24, 37)</td>
+</tr>
+<tr>
+<td>Active</td>
+<td>rgb(30, 30, 46)</td>
+</tr>
+<tr>
+<td>Main</td>
+<td>rgb(24, 24, 37)</td>
+</tr>
+<tr>
+<td>Error</td>
+<td>rgb(243, 139, 168)</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>rgb(205, 214, 244)</td>
+</tr>
+<tr>
+<td>Darker Text</td>
+<td>rgb(205, 192, 222)</td>
+</tr>
+<tr>
+<td>Disabled Text</td>
+<td>rgb(88, 91, 112)</td>
+</tr>
+<tr>
+<td>Edge</td>
+<td>rgb(24, 24, 37)</td>
+</tr>
+<tr>
+<td>Link</td>
+<td>rgb(249, 226, 175)</td>
+</tr>
+</table>
+</details>
+</ol>
+</details>
 
 &nbsp;
 
