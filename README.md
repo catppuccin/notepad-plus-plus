@@ -136,7 +136,7 @@
 </tr>
 <tr>
 <td>Disabled Text</td>
-<td>rgb(165, 173, 206) 	hsl</td>
+<td>rgb(165, 173, 206)</td>
 </tr>
 <tr>
 <td>Edge</td>
@@ -190,7 +190,7 @@
 </tr>
 <tr>
 <td>Disabled Text</td>
-<td>rgb(165, 173, 203) 	hsl</td>
+<td>rgb(165, 173, 203)</td>
 </tr>
 <tr>
 <td>Edge</td>
