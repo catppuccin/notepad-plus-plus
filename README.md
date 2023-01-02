@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/InvitedToHell/notepad++/main/assets/previews/preview.webp"/>
+	<img src="https://github.com/InvitedToHell/notepadplusplus/blob/master/assets/previews/preview.webp"/>
 </p>
 
 ## Previews
