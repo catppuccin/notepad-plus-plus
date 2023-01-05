@@ -19,19 +19,19 @@
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://github.com/InvitedToHell/notepadplusplus/blob/master/assets/previews/latte.png"/>
+<img src="https://github.com/catppuccin/notepadplusplus/blob/master/assets/previews/latte.png"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://github.com/InvitedToHell/notepadplusplus/blob/master/assets/previews/frappe.png"/>
+<img src="https://github.com/catppuccin/notepadplusplus/blob/master/assets/previews/frappe.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://github.com/InvitedToHell/notepadplusplus/blob/master/assets/previews/macchiato.png"/>
+<img src="https://github.com/catppuccin/notepadplusplus/blob/master/assets/previews/macchiato.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://github.com/InvitedToHell/notepadplusplus/blob/master/assets/previews/mocha.png"/>
+<img src="https://github.com/catppuccin/notepadplusplus/blob/master/assets/previews/mocha.png"/>
 </details>
 
 
@@ -266,9 +266,13 @@
 </p>
 
 <p align="center">
-	Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
+	Copyright &copy; 2023-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
 </p>
 
 <p align="center">
 	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
 </p>
+
+## Credits
+- [Dracula Notepad++](https://github.com/dracula/notepad-plus-plus)
+- [InvitedToHell](https://github.com/InvitedToHell)
