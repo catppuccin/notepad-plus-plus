@@ -275,4 +275,4 @@
 
 ## Credits
 - [Dracula Notepad++](https://github.com/dracula/notepad-plus-plus)
-- [<your profile>](https://github.com/InvitedToHell)
+- [InvitedToHell](https://github.com/InvitedToHell)
