@@ -274,4 +274,5 @@
 </p>
 
 ## Credits
-- [Dracula](https://github.com/dracula/notepad-plus-plus)
+- [Dracula Notepad++](https://github.com/dracula/notepad-plus-plus)
+- [<your profile>](https://github.com/InvitedToHell)
