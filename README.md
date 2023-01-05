@@ -262,6 +262,8 @@
 ## 💝 Thanks to
 - [Dracula Notepad++](https://github.com/dracula/notepad-plus-plus)
 - [InvitedToHell](https://github.com/InvitedToHell)
+- [Dukk](https://github.com/DakshG07)
+- [winston](https://github.com/nekowinston)
 
 &nbsp;
 
