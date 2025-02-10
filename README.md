@@ -36,10 +36,9 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Open `%AppData%\Notepad++\themes`
-3. Drag the `.xml` files into the folder
-4. In Notepad++: Settings > Style Configurator > Select theme > `catppuccin-...`
+1. Download your preferred flavor(s) from [`themes/`](./themes/).
+2. Move downloaded flavor(s) to `%AppData%\Notepad++\themes`.
+4. In Notepad++, go to **Settings** > **Style Configurator** > **Select theme**, and select your Catppuccin flavor.
 
 <details>
 <summary>🌻 Latte</summary>
