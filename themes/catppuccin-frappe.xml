@@ -578,6 +578,12 @@
         <WidgetStyle name="Tags attribute" styleID="26" bgColor="303446" fgColor="C6D0F5" fontStyle="0" />
         <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="CA9EE6" fgColor="FFCAB0" fontStyle="0" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="99D1DB" fgColor="C6D0F5" fontSize="" fontStyle="1" />
+        <WidgetStyle name="Find Mark Style" styleID="31" bgColor="E78284"></WidgetStyle>
+        <WidgetStyle name="Mark Style 1" styleID="25" bgColor="85C1DC"></WidgetStyle>
+        <WidgetStyle name="Mark Style 2" styleID="24" bgColor="EF9F76"></WidgetStyle>
+        <WidgetStyle name="Mark Style 3" styleID="23" bgColor="E5C890"></WidgetStyle>
+        <WidgetStyle name="Mark Style 4" styleID="22" bgColor="CA9EE6"></WidgetStyle>
+        <WidgetStyle name="Mark Style 5" styleID="21" bgColor="A6D189"></WidgetStyle>
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="E78284" fontStyle="0" />
         <WidgetStyle name="Change History modified" styleID="0" fgColor="EF9F76" bgColor="EF9F76" />
         <WidgetStyle name="Change History revert modified" styleID="0" fgColor="BABBF1" bgColor="BABBF1" />

@@ -586,6 +586,12 @@ whiskers:
         <WidgetStyle name="Tags attribute" styleID="26" bgColor="{{ base.hex }}" fgColor="{{ text.hex }}" fontStyle="0" />
         <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="{{ mauve.hex }}" fgColor="FFCAB0" fontStyle="0" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="{{ sky.hex }}" fgColor="{{ text.hex }}" fontSize="" fontStyle="1" />
+        <WidgetStyle name="Find Mark Style" styleID="31" bgColor="{{ red.hex }}"></WidgetStyle>
+        <WidgetStyle name="Mark Style 1" styleID="25" bgColor="{{ sapphire.hex }}"></WidgetStyle>
+        <WidgetStyle name="Mark Style 2" styleID="24" bgColor="{{ peach.hex }}"></WidgetStyle>
+        <WidgetStyle name="Mark Style 3" styleID="23" bgColor="{{ yellow.hex }}"></WidgetStyle>
+        <WidgetStyle name="Mark Style 4" styleID="22" bgColor="{{ mauve.hex }}"></WidgetStyle>
+        <WidgetStyle name="Mark Style 5" styleID="21" bgColor="{{ green.hex }}"></WidgetStyle>
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="{{ red.hex }}" fontStyle="0" />
         <WidgetStyle name="Change History modified" styleID="0" fgColor="{{ peach.hex }}" bgColor="{{ peach.hex }}" />
         <WidgetStyle name="Change History revert modified" styleID="0" fgColor="{{ lavender.hex }}" bgColor="{{ lavender.hex }}" />
