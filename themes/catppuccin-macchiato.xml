@@ -519,6 +519,41 @@
             <WordsStyle name="OPERATORS" styleID="6" fgColor="91D7E3" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="UNKNOWN: ERROR" styleID="31" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="verilog" desc="Verilog" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAGNAME" styleID="2" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="KEYWORD" styleID="7" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="F5A97F" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="EED49F" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="COMMENT LINE BANG" styleID="3" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="STRING EOL" styleID="12" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="USER" styleID="19" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+        <LexerType name="vhdl" desc="VHDL" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="3" fgColor="F5A97F" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="4" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="5" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="6" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING EOL" styleID="7" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION" styleID="8" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="STD OPERATOR" styleID="9" fgColor="7DC4E4" bgColor="24273A" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="ATTRIBUTE" styleID="10" fgColor="F4DBD6" bgColor="24273A" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="DIRECTIVE" styleID="9" fgColor="C6A0F6" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DIRECTIVE OPERAND" styleID="10" fgColor="C6A0F6" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STD FUNCTION" styleID="11" fgColor="EED49F" bgColor="24273A" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+            <WordsStyle name="STD PACKAGE" styleID="12" fgColor="EED49F" bgColor="24273A" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
+            <WordsStyle name="STD TYPE" styleID="13" fgColor="EED49F" bgColor="24273A" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
+            <WordsStyle name="USER DEFINE" styleID="14" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
+        </LexerType>
         <LexerType name="nfo" desc="Dos Style" ext="">
             <WordsStyle name="DEFAULT" styleID="32" fgColor="CAD3F5" bgColor="24273A" fontSize="" fontStyle="0" />
         </LexerType>
