@@ -583,5 +583,7 @@
         <WidgetStyle name="Change History revert modified" styleID="0" fgColor="BABBF1" bgColor="BABBF1" />
         <WidgetStyle name="Change History revert origin" styleID="0" fgColor="81C8BE" bgColor="81C8BE" />
         <WidgetStyle name="Change History saved" styleID="0" fgColor="A6D189" bgColor="A6D189" />
+        <WidgetStyle name="EOL custom color" styleID="0" fgColor="A5ADCE" />
+        <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="737994" />
     </GlobalStyles>
 </NotepadPlus>

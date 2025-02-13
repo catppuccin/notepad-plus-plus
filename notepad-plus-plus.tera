@@ -591,5 +591,7 @@ whiskers:
         <WidgetStyle name="Change History revert modified" styleID="0" fgColor="{{ lavender.hex }}" bgColor="{{ lavender.hex }}" />
         <WidgetStyle name="Change History revert origin" styleID="0" fgColor="{{ teal.hex }}" bgColor="{{ teal.hex }}" />
         <WidgetStyle name="Change History saved" styleID="0" fgColor="{{ green.hex }}" bgColor="{{ green.hex }}" />
+        <WidgetStyle name="EOL custom color" styleID="0" fgColor="{{ subtext0.hex }}" />
+        <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="{{ overlay0.hex }}" />
     </GlobalStyles>
 </NotepadPlus>
