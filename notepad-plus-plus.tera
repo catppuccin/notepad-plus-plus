@@ -552,5 +552,9 @@ whiskers:
         <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="{{ mauve.hex }}" fgColor="FFCAB0" fontStyle="0" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="{{ sky.hex }}" fgColor="{{ text.hex }}" fontSize="" fontStyle="1" />
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="{{ red.hex }}" fontStyle="0" />
+        <WidgetStyle name="Change History modified" styleID="0" fgColor="{{ peach.hex }}" bgColor="{{ peach.hex }}" />
+        <WidgetStyle name="Change History revert modified" styleID="0" fgColor="{{ lavender.hex }}" bgColor="{{ lavender.hex }}" />
+        <WidgetStyle name="Change History revert origin" styleID="0" fgColor="{{ teal.hex }}" bgColor="{{ teal.hex }}" />
+        <WidgetStyle name="Change History saved" styleID="0" fgColor="{{ green.hex }}" bgColor="{{ green.hex }}" />
     </GlobalStyles>
 </NotepadPlus>
