@@ -543,6 +543,12 @@
         <WidgetStyle name="Tags attribute" styleID="26" bgColor="1E1E2E" fgColor="CDD6F4" fontStyle="0" />
         <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="CBA6F7" fgColor="FFCAB0" fontStyle="0" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="89DCEB" fgColor="CDD6F4" fontSize="" fontStyle="1" />
+        <WidgetStyle name="Find Mark Style" styleID="31" bgColor="F38BA8"></WidgetStyle>
+        <WidgetStyle name="Mark Style 1" styleID="25" bgColor="74C7EC"></WidgetStyle>
+        <WidgetStyle name="Mark Style 2" styleID="24" bgColor="FAB387"></WidgetStyle>
+        <WidgetStyle name="Mark Style 3" styleID="23" bgColor="F9E2AF"></WidgetStyle>
+        <WidgetStyle name="Mark Style 4" styleID="22" bgColor="CBA6F7"></WidgetStyle>
+        <WidgetStyle name="Mark Style 5" styleID="21" bgColor="A6E3A1"></WidgetStyle>
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="F38BA8" fontStyle="0" />
     </GlobalStyles>
 </NotepadPlus>
