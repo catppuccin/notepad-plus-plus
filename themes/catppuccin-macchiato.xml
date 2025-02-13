@@ -67,20 +67,21 @@
             <WordsStyle name="BYTE CHARACTER" styleID="23" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="xml" desc="XML" ext="xaml svg xul vcxproj csproj vbproj fsproj lsxtproj shproj xproj ccproj jsproj sqlproj dbproj msbuildproj props">
-            <WordsStyle name="XMLSTART" styleID="12" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="XMLEND" styleID="13" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="XMLSTART" styleID="12" fgColor="8BD5CA" bgColor="24273A" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="XMLEND" styleID="13" fgColor="8BD5CA" bgColor="24273A" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="DEFAULT" styleID="0" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="9" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="5" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="9" fgColor="939AB7" bgColor="24273A" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="5" fgColor="F5A97F" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="SINGLESTRING" styleID="7" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="TAG" styleID="1" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="TAGEND" styleID="11" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAG" styleID="1" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAGEND" styleID="11" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="EED49F" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="EED49F" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CDATA" styleID="17" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ENTITY" styleID="10" fgColor="CAD3F5" bgColor="494D64" fontName="" fontStyle="2" fontSize=""></WordsStyle>
         </LexerType>
         <LexerType name="html" desc="HTML" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
