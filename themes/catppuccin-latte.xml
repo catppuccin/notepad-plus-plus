@@ -579,5 +579,9 @@
         <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="8839EF" fgColor="FFCAB0" fontStyle="0" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="04A5E5" fgColor="4C4F69" fontSize="" fontStyle="1" />
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="D20F39" fontStyle="0" />
+        <WidgetStyle name="Change History modified" styleID="0" fgColor="FE640B" bgColor="FE640B" />
+        <WidgetStyle name="Change History revert modified" styleID="0" fgColor="7287FD" bgColor="7287FD" />
+        <WidgetStyle name="Change History revert origin" styleID="0" fgColor="179299" bgColor="179299" />
+        <WidgetStyle name="Change History saved" styleID="0" fgColor="40A02B" bgColor="40A02B" />
     </GlobalStyles>
 </NotepadPlus>
