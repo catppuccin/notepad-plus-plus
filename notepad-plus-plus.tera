@@ -6,6 +6,8 @@ whiskers:
   filename: "themes/catppuccin-{{ flavor.identifier }}.xml"
   hex_format: "{{R}}{{G}}{{B}}{{Z}}"
 ---
+{%- set line = text | mix(color=base, amount=0.1) -%}
+{%- set selected = overlay2 | mix(color=base, amount=0.30) -%}
 <?xml version="1.0" encoding="UTF-8" ?>
 <NotepadPlus>
     <LexerStyles>
@@ -572,28 +574,28 @@ whiskers:
         <WidgetStyle name="Global override" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="Consolas" fontStyle="0" fontSize="10" />
         <WidgetStyle name="Default Style" styleID="32" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="Consolas" fontStyle="0" fontSize="10" />
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-        <WidgetStyle name="Brace highlight style" styleID="34" fgColor="{{ text.hex }}" bgColor="{{ mauve.hex }}" fontName="" fontStyle="1" fontSize="10" />
+        <WidgetStyle name="Brace highlight style" styleID="34" fgColor="{{ text.hex }}" bgColor="{{ selected.hex }}" fontName="" fontStyle="1" fontSize="10" />
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="{{ text.hex }}" bgColor="{{ red.hex }}" fontName="" fontStyle="0" fontSize="" />
-        <WidgetStyle name="Current line background colour" styleID="0" bgColor="2F3142" fgColor="{{ text.hex }}" fontSize="" fontStyle="0" />
-        <WidgetStyle name="Selected text colour" styleID="0" bgColor="44475A" fgColor="{{ text.hex }}" fontStyle="0" />
-        <WidgetStyle name="Caret colour" styleID="2069" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontStyle="0" />
+        <WidgetStyle name="Current line background colour" styleID="0" bgColor="{{ line.hex }}" fgColor="{{ text.hex }}" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Selected text colour" styleID="0" bgColor="{{ selected.hex }}" fontStyle="0" />
+        <WidgetStyle name="Caret colour" styleID="2069" fgColor="{{ rosewater.hex }}" bgColor="{{ base.hex }}" fontStyle="0" />
         <WidgetStyle name="Edge colour" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontSize="" fontStyle="0" />
-        <WidgetStyle name="Line number margin" styleID="33" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Line number margin" styleID="33" fgColor="{{ overlay1.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Fold" styleID="0" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" fontStyle="0" fontSize="" />
         <WidgetStyle name="Fold active" styleID="0" fgColor="{{ mauve.hex }}" fontStyle="0" fontSize="" bgColor="{{ base.hex }}" />
         <WidgetStyle name="Fold margin" styleID="0" fgColor="{{ base.hex }}" bgColor="{{ base.hex }}" fontStyle="0" fontSize="" />
         <WidgetStyle name="White space symbol" styleID="0" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontStyle="0" fontSize="" />
-        <WidgetStyle name="URL hovered" styleID="0" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontStyle="0" />
+        <WidgetStyle name="URL hovered" styleID="0" fgColor="{{ sky.hex }}" bgColor="{{ base.hex }}" fontStyle="0" />
         <WidgetStyle name="Tags attribute" styleID="26" bgColor="{{ base.hex }}" fgColor="{{ text.hex }}" fontStyle="0" />
-        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="{{ mauve.hex }}" fgColor="FFCAB0" fontStyle="0" />
-        <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="{{ sky.hex }}" fgColor="{{ text.hex }}" fontSize="" fontStyle="1" />
+        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="{{ selected.hex }}" fgColor="{{ text.hex }}" fontStyle="0" />
+        <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="{{ overlay2.hex }}" fgColor="{{ text.hex }}" fontSize="" fontStyle="1" />
         <WidgetStyle name="Find Mark Style" styleID="31" bgColor="{{ red.hex }}"></WidgetStyle>
         <WidgetStyle name="Mark Style 1" styleID="25" bgColor="{{ sapphire.hex }}"></WidgetStyle>
         <WidgetStyle name="Mark Style 2" styleID="24" bgColor="{{ peach.hex }}"></WidgetStyle>
         <WidgetStyle name="Mark Style 3" styleID="23" bgColor="{{ yellow.hex }}"></WidgetStyle>
         <WidgetStyle name="Mark Style 4" styleID="22" bgColor="{{ mauve.hex }}"></WidgetStyle>
         <WidgetStyle name="Mark Style 5" styleID="21" bgColor="{{ green.hex }}"></WidgetStyle>
-        <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="{{ red.hex }}" fontStyle="0" />
+        <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="{{ lavender.hex }}" fontStyle="0" />
         <WidgetStyle name="Change History modified" styleID="0" fgColor="{{ peach.hex }}" bgColor="{{ peach.hex }}" />
         <WidgetStyle name="Change History revert modified" styleID="0" fgColor="{{ lavender.hex }}" bgColor="{{ lavender.hex }}" />
         <WidgetStyle name="Change History revert origin" styleID="0" fgColor="{{ teal.hex }}" bgColor="{{ teal.hex }}" />
