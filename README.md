@@ -38,223 +38,44 @@
 
 1. Download your preferred flavor(s) from [`themes/`](./themes/).
 2. Move downloaded flavor(s) to `%AppData%\Notepad++\themes`.
-4. In Notepad++, go to **Settings** > **Style Configurator** > **Select theme**, and select your Catppuccin flavor.
+
+3. To customize the UI colors (non-editor area), add the appropriate line to your config.xml in the `%AppData%\Notepad++` folder. 
+  > Note: This has limited functionality. Some elements are controlled by the Windows theme (menu dropdowns, scrollbars, etc.).
+
+  > Note2: You cannot use Npp to make this change, as it will overwrite any changes to `config.xml` when closing. Use a different editor :pensive:
+
 
 <details>
 <summary>🌻 Latte</summary>
-<ol>
-<li>In Notepad++: Settings > Preferences > Darkmode > Enable Darkmode</li>
-<li>Then customize the following tones:</li>
-<table>
-<tr>
-<th></th>
-<th></th>
-</tr>
-<tr>
-<td>Top</td>
-<td>rgb(239, 241, 245)</td>
-</tr>
-<tr>
-<td>Menu hot track</td>
-<td>rgb(239, 241, 245)</td>
-</tr>
-<tr>
-<td>Active</td>
-<td>rgb(204, 208, 218)</td>
-</tr>
-<tr>
-<td>Main</td>
-<td>rgb(239, 241, 245)</td>
-</tr>
-<tr>
-<td>Error</td>
-<td>rgb(210, 15, 57)</td>
-</tr>
-<tr>
-<td>Text</td>
-<td>rgb(76, 79, 105)</td>
-</tr>
-<tr>
-<td>Darker Text</td>
-<td>rgb(92, 95, 119)</td>
-</tr>
-<tr>
-<td>Disabled Text</td>
-<td>rgb(108, 111, 133)</td>
-</tr>
-<tr>
-<td>Edge</td>
-<td>rgb(230, 233, 239)</td>
-</tr>
-<tr>
-<td>Link</td>
-<td>rgb(220, 138, 120)</td>
-</tr>
-</table>
-</details>
-</ol>
+
+- Replace the `<GUIConfig>` tag with `name=DarkMode` attribute with the following: 
+  ```xml
+  <GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="15722982" customColorMenuHotTrack="13418684" customColorActive="14340300" customColorMain="15722982" customColorError="3739602" customColorText="6901580" customColorDarkText="7823196" customColorDisabledText="8744812" customColorLinkText="16082462" customColorEdge="10588044" customColorHotEdge="9666428" customColorDisabledEdge="11575452" enableWindowsMode="no" darkThemeName="catppuccin-latte.xml" darkToolBarIconSet="2" darkTabIconSet="2" darkTabUseTheme="no" lightThemeName="catppuccin-latte.xml" lightToolBarIconSet="4" lightTabIconSet="0" lightTabUseTheme="yes" />
+  ```
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<ol>
-<li>In Notepad++: Settings > Preferences > Darkmode > Enable Darkmode</li>
-<li>Then customize the following tones:</li>
-<table>
-<tr>
-<th></th>
-<th></th>
-</tr>
-<tr>
-<td>Top</td>
-<td>rgb(48, 52, 70)</td>
-</tr>
-<tr>
-<td>Menu hot track</td>
-<td>rgb(48, 52, 70)</td>
-</tr>
-<tr>
-<td>Active</td>
-<td>rgb(81, 87, 109)</td>
-</tr>
-<tr>
-<td>Main</td>
-<td>rgb(48, 52, 70)</td>
-</tr>
-<tr>
-<td>Error</td>
-<td>rgb(231, 130, 132)</td>
-</tr>
-<tr>
-<td>Text</td>
-<td>rgb(198, 208, 245)</td>
-</tr>
-<tr>
-<td>Darker Text</td>
-<td>rgb(181, 191, 226)</td>
-</tr>
-<tr>
-<td>Disabled Text</td>
-<td>rgb(165, 173, 206)</td>
-</tr>
-<tr>
-<td>Edge</td>
-<td>rgb(131, 139, 167)</td>
-</tr>
-<tr>
-<td>Link</td>
-<td>rgb(238, 190, 190)</td>
-</tr>
-</table>
-</details>
-</ol>
+
+- Replace the `<GUIConfig>` tag with `name=DarkMode` attribute with the following: 
+  ```xml
+  <GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="3943465" customColorMenuHotTrack="7165777" customColorActive="5850433" customColorMain="3943465" customColorError="8684263" customColorText="16109766" customColorDarkText="14860213" customColorDisabledText="13544869" customColorLinkText="15641228" customColorEdge="10980227" customColorHotEdge="12295316" customColorDisabledEdge="9730419" enableWindowsMode="no" darkThemeName="catppuccin-frappe.xml" darkToolBarIconSet="2" darkTabIconSet="2" darkTabUseTheme="no" lightThemeName="catppuccin-frappe.xml" lightToolBarIconSet="4" lightTabIconSet="0" lightTabUseTheme="yes" />
+  ```
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<ol>
-<li>In Notepad++: Settings > Preferences > Darkmode > Enable Darkmode</li>
-<li>Then customize the following tones:</li>
-<table>
-<tr>
-<th></th>
-<th></th>
-</tr>
-<tr>
-<td>Top</td>
-<td>rgb(36, 39, 58)</td>
-</tr>
-<tr>
-<td>Menu hot track</td>
-<td>rgb(36, 39, 58)</td>
-</tr>
-<tr>
-<td>Active</td>
-<td>rgb(73, 77, 100)</td>
-</tr>
-<tr>
-<td>Main</td>
-<td>rgb(36, 39, 58)</td>
-</tr>
-<tr>
-<td>Error</td>
-<td>rgb(237, 135, 150)</td>
-</tr>
-<tr>
-<td>Text</td>
-<td>rgb(202, 211, 245)</td>
-</tr>
-<tr>
-<td>Darker Text</td>
-<td>rgb(184, 192, 224))</td>
-</tr>
-<tr>
-<td>Disabled Text</td>
-<td>rgb(165, 173, 203)</td>
-</tr>
-<tr>
-<td>Edge</td>
-<td>rgb(110, 115, 141)</td>
-</tr>
-<tr>
-<td>Link</td>
-<td>rgb(240, 198, 198)</td>
-</tr>
-</table>
-</details>
-</ol>
+
+- Replace the `<GUIConfig>` tag with `name=DarkMode` attribute with the following: 
+  ```xml
+  <GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="3153950" customColorMenuHotTrack="6573385" customColorActive="5192246" customColorMain="3153950" customColorError="9865197" customColorText="16110538" customColorDarkText="14729400" customColorDisabledText="13348261" customColorLinkText="16035210" customColorEdge="10651520" customColorHotEdge="12032659" customColorDisabledEdge="9270126" enableWindowsMode="no" darkThemeName="catppuccin-macchiato.xml" darkToolBarIconSet="2" darkTabIconSet="2" darkTabUseTheme="no" lightThemeName="catppuccin-macchiato.xml" lightToolBarIconSet="4" lightTabIconSet="0" lightTabUseTheme="yes" />
+  ```
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<ol>
-<li>In Notepad++: Settings > Preferences > Darkmode > Enable Darkmode</li>
-<li>Then customize the following tones:</li>
-<table>
-<tr>
-<th></th>
-<th></th>
-</tr>
-<tr>
-<td>Top</td>
-<td>rgb(24, 24, 37)</td>
-</tr>
-<tr>
-<td>Menu hot track</td>
-<td>rgb(24, 24, 37)</td>
-</tr>
-<tr>
-<td>Active</td>
-<td>rgb(30, 30, 46)</td>
-</tr>
-<tr>
-<td>Main</td>
-<td>rgb(24, 24, 37)</td>
-</tr>
-<tr>
-<td>Error</td>
-<td>rgb(243, 139, 168)</td>
-</tr>
-<tr>
-<td>Text</td>
-<td>rgb(205, 214, 244)</td>
-</tr>
-<tr>
-<td>Darker Text</td>
-<td>rgb(205, 192, 222)</td>
-</tr>
-<tr>
-<td>Disabled Text</td>
-<td>rgb(88, 91, 112)</td>
-</tr>
-<tr>
-<td>Edge</td>
-<td>rgb(24, 24, 37)</td>
-</tr>
-<tr>
-<td>Link</td>
-<td>rgb(249, 226, 175)</td>
-</tr>
-</table>
-</details>
-</ol>
+
+- Replace the `<GUIConfig>` tag with `name=DarkMode` attribute with the following: 
+  ```xml
+  <GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="2431000" customColorMenuHotTrack="5916485" customColorActive="4469297" customColorMain="2431000" customColorError="11045875" customColorText="16045773" customColorDarkText="14598842" customColorDisabledText="13151654" customColorLinkText="16430217" customColorEdge="10257535" customColorHotEdge="11704723" customColorDisabledEdge="8810604" enableWindowsMode="no" darkThemeName="catppuccin-mocha.xml" darkToolBarIconSet="2" darkTabIconSet="2" darkTabUseTheme="no" lightThemeName="catppuccin-mocha.xml" lightToolBarIconSet="4" lightTabIconSet="0" lightTabUseTheme="yes" />
+  ```
 </details>
 
 ## 💝 Thanks to
