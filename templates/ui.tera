@@ -1,0 +1,29 @@
+---
+whiskers:
+  version: 2.5.0
+  filename: "ui-theme.md"
+---
+{% macro bgr(c) -%}
+{{ (c.rgb.b * 65536) + (c.rgb.g * 256) + c.rgb.r }}
+{%- endmacro bgr %}
+# Changing UI Colors
+Notepad++ has limited support for customizing the UI elements.
+Some elements are controlled by the Windows theme (menu dropdowns, scrollbars, etc.) and can't be changed.
+
+You can theme the supported elements by modifying a line in the file `%AppData%/Notepad++/config.xml`.
+Replace the line beginning with `<GUIConfig name="DarkMode">` with the desired flavor.
+
+> [!NOTE]
+> You cannot use Notepad++ to make this change, as it will overwrite any changes to `config.xml` when closing.
+
+{% for id, flavor in flavors -%}
+{%- set l = flavor.colors -%}
+<details>
+<summary>{{ flavor.emoji }} {{ flavor.name }}</summary>
+
+
+  ```xml
+  <GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="{{ self::bgr(c=l.mantle) }}" customColorMenuHotTrack="{{ self::bgr(c=l.surface1) }}" customColorActive="{{ self::bgr(c=l.surface0) }}" customColorMain="{{ self::bgr(c=l.mantle) }}" customColorError="{{ self::bgr(c=l.red) }}" customColorText="{{ self::bgr(c=l.text) }}" customColorDarkText="{{ self::bgr(c=l.subtext1) }}" customColorDisabledText="{{ self::bgr(c=l.subtext0) }}" customColorLinkText="{{ self::bgr(c=l.blue)}}" customColorEdge="{{ self::bgr(c=l.overlay1) }}" customColorHotEdge="{{ self::bgr(c=l.overlay2) }}" customColorDisabledEdge="{{ self::bgr(c=l.overlay0) }}" enableWindowsMode="no" darkThemeName="catppuccin-{{ flavor.identifier }}.xml" darkToolBarIconSet="2" darkTabIconSet="2" darkTabUseTheme="no" lightThemeName="catppuccin-{{ flavor.identifier }}.xml" lightToolBarIconSet="4" lightTabIconSet="0" lightTabUseTheme="yes" />
+  ```
+</details>
+{% endfor %}
