@@ -306,21 +306,21 @@
         </LexerType>
         <LexerType name="lua" desc="Lua" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="LITERALSTRING" styleID="8" fgColor="D20F39" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="E64553" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="8839EF" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="7C7F93" bgColor="EFF1F5" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="7C7F93" bgColor="EFF1F5" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="7C7F93" bgColor="EFF1F5" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="LITERALSTRING" styleID="8" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="8839EF" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FE640B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CHARACTER" styleID="7" fgColor="FE640B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="FUNC1" styleID="13" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
-            <WordsStyle name="FUNC2" styleID="14" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" keywordClass="type1" />
-            <WordsStyle name="FUNC3" styleID="15" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="3" fontSize="" keywordClass="type2" />
-            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="LABEL" styleID="20" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="04A5E5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="FUNC1" styleID="13" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="2" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="FUNC2" styleID="14" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="2" fontSize="" keywordClass="type1" />
+            <WordsStyle name="FUNC3" styleID="15" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="2" fontSize="" keywordClass="type2" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="LABEL" styleID="20" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
         </LexerType>
         <LexerType name="yaml" desc="YAML" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
