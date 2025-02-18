@@ -578,16 +578,17 @@ whiskers:
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="{{ text.hex }}" bgColor="{{ red.hex }}" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Current line background colour" styleID="0" bgColor="{{ line.hex }}" fgColor="{{ text.hex }}" fontSize="" fontStyle="0" />
         <WidgetStyle name="Selected text colour" styleID="0" bgColor="{{ selected.hex }}" fontStyle="0" />
+        <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="{{ selected.hex }}" />
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="{{ rosewater.hex }}" bgColor="{{ base.hex }}" fontStyle="0" />
+        <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="{{ rosewater.hex }}" />
         <WidgetStyle name="Edge colour" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontSize="" fontStyle="0" />
         <WidgetStyle name="Line number margin" styleID="33" fgColor="{{ overlay1.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Bookmark margin" styleID="0" bgColor="{{ base.hex }}" />
+        <WidgetStyle name="Change History margin" styleID="0" bgColor="{{ base.hex }}" />
         <WidgetStyle name="Fold" styleID="0" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" fontStyle="0" fontSize="" />
         <WidgetStyle name="Fold active" styleID="0" fgColor="{{ mauve.hex }}" fontStyle="0" fontSize="" bgColor="{{ base.hex }}" />
         <WidgetStyle name="Fold margin" styleID="0" fgColor="{{ base.hex }}" bgColor="{{ base.hex }}" fontStyle="0" fontSize="" />
         <WidgetStyle name="White space symbol" styleID="0" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontStyle="0" fontSize="" />
-        <WidgetStyle name="URL hovered" styleID="0" fgColor="{{ sky.hex }}" bgColor="{{ base.hex }}" fontStyle="0" />
-        <WidgetStyle name="Tags attribute" styleID="26" bgColor="{{ base.hex }}" fgColor="{{ text.hex }}" fontStyle="0" />
-        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="{{ selected.hex }}" fgColor="{{ text.hex }}" fontStyle="0" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="{{ overlay2.hex }}" fgColor="{{ text.hex }}" fontSize="" fontStyle="1" />
         <WidgetStyle name="Find Mark Style" styleID="31" bgColor="{{ red.hex }}"></WidgetStyle>
         <WidgetStyle name="Mark Style 1" styleID="25" bgColor="{{ sapphire.hex }}"></WidgetStyle>
@@ -595,12 +596,20 @@ whiskers:
         <WidgetStyle name="Mark Style 3" styleID="23" bgColor="{{ yellow.hex }}"></WidgetStyle>
         <WidgetStyle name="Mark Style 4" styleID="22" bgColor="{{ mauve.hex }}"></WidgetStyle>
         <WidgetStyle name="Mark Style 5" styleID="21" bgColor="{{ green.hex }}"></WidgetStyle>
-        <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="{{ lavender.hex }}" fontStyle="0" />
+        <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="{{ blue.hex }}" />
+        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="{{ selected.hex }}" fgColor="{{ text.hex }}" fontStyle="0" />
+        <WidgetStyle name="Tags attribute" styleID="26" bgColor="{{ base.hex }}" fgColor="{{ text.hex }}" fontStyle="0" />
+        <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="{{ lavender.hex }}" />
+        <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="{{ sapphire.hex }}" />
+        <WidgetStyle name="Active tab text" styleID="0" fgColor="{{ lavender.hex }}" />
+        <WidgetStyle name="Inactive tabs" styleID="0" fgColor="{{ subtext1.hex }}" bgColor="{{ crust.hex }}" />
+        <WidgetStyle name="URL hovered" styleID="0" fgColor="{{ sky.hex }}" bgColor="{{ base.hex }}" fontStyle="0" />
+        <WidgetStyle name="Document map" styleID="0" fgColor="{{ sky.hex }}" bgColor="{{ surface2.hex }}" />
+        <WidgetStyle name="EOL custom color" styleID="0" fgColor="{{ subtext0.hex }}" />
+        <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="{{ overlay0.hex }}" />
         <WidgetStyle name="Change History modified" styleID="0" fgColor="{{ peach.hex }}" bgColor="{{ peach.hex }}" />
         <WidgetStyle name="Change History revert modified" styleID="0" fgColor="{{ lavender.hex }}" bgColor="{{ lavender.hex }}" />
         <WidgetStyle name="Change History revert origin" styleID="0" fgColor="{{ teal.hex }}" bgColor="{{ teal.hex }}" />
         <WidgetStyle name="Change History saved" styleID="0" fgColor="{{ green.hex }}" bgColor="{{ green.hex }}" />
-        <WidgetStyle name="EOL custom color" styleID="0" fgColor="{{ subtext0.hex }}" />
-        <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="{{ overlay0.hex }}" />
     </GlobalStyles>
 </NotepadPlus>

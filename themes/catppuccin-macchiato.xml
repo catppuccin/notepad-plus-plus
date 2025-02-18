@@ -568,16 +568,17 @@
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="CAD3F5" bgColor="ED8796" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Current line background colour" styleID="0" bgColor="35394D" fgColor="CAD3F5" fontSize="" fontStyle="0" />
         <WidgetStyle name="Selected text colour" styleID="0" bgColor="454A5F" fontStyle="0" />
+        <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="454A5F" />
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="F4DBD6" bgColor="24273A" fontStyle="0" />
+        <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="F4DBD6" />
         <WidgetStyle name="Edge colour" styleID="0" fgColor="CAD3F5" bgColor="24273A" fontSize="" fontStyle="0" />
         <WidgetStyle name="Line number margin" styleID="33" fgColor="8087A2" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Bookmark margin" styleID="0" bgColor="24273A" />
+        <WidgetStyle name="Change History margin" styleID="0" bgColor="24273A" />
         <WidgetStyle name="Fold" styleID="0" fgColor="C6A0F6" bgColor="24273A" fontStyle="0" fontSize="" />
         <WidgetStyle name="Fold active" styleID="0" fgColor="C6A0F6" fontStyle="0" fontSize="" bgColor="24273A" />
         <WidgetStyle name="Fold margin" styleID="0" fgColor="24273A" bgColor="24273A" fontStyle="0" fontSize="" />
         <WidgetStyle name="White space symbol" styleID="0" fgColor="8AADF4" bgColor="24273A" fontStyle="0" fontSize="" />
-        <WidgetStyle name="URL hovered" styleID="0" fgColor="91D7E3" bgColor="24273A" fontStyle="0" />
-        <WidgetStyle name="Tags attribute" styleID="26" bgColor="24273A" fgColor="CAD3F5" fontStyle="0" />
-        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="454A5F" fgColor="CAD3F5" fontStyle="0" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="939AB7" fgColor="CAD3F5" fontSize="" fontStyle="1" />
         <WidgetStyle name="Find Mark Style" styleID="31" bgColor="ED8796"></WidgetStyle>
         <WidgetStyle name="Mark Style 1" styleID="25" bgColor="7DC4E4"></WidgetStyle>
@@ -585,12 +586,20 @@
         <WidgetStyle name="Mark Style 3" styleID="23" bgColor="EED49F"></WidgetStyle>
         <WidgetStyle name="Mark Style 4" styleID="22" bgColor="C6A0F6"></WidgetStyle>
         <WidgetStyle name="Mark Style 5" styleID="21" bgColor="A6DA95"></WidgetStyle>
-        <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="B7BDF8" fontStyle="0" />
+        <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="8AADF4" />
+        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="454A5F" fgColor="CAD3F5" fontStyle="0" />
+        <WidgetStyle name="Tags attribute" styleID="26" bgColor="24273A" fgColor="CAD3F5" fontStyle="0" />
+        <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="B7BDF8" />
+        <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="7DC4E4" />
+        <WidgetStyle name="Active tab text" styleID="0" fgColor="B7BDF8" />
+        <WidgetStyle name="Inactive tabs" styleID="0" fgColor="B8C0E0" bgColor="181926" />
+        <WidgetStyle name="URL hovered" styleID="0" fgColor="91D7E3" bgColor="24273A" fontStyle="0" />
+        <WidgetStyle name="Document map" styleID="0" fgColor="91D7E3" bgColor="5B6078" />
+        <WidgetStyle name="EOL custom color" styleID="0" fgColor="A5ADCB" />
+        <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="6E738D" />
         <WidgetStyle name="Change History modified" styleID="0" fgColor="F5A97F" bgColor="F5A97F" />
         <WidgetStyle name="Change History revert modified" styleID="0" fgColor="B7BDF8" bgColor="B7BDF8" />
         <WidgetStyle name="Change History revert origin" styleID="0" fgColor="8BD5CA" bgColor="8BD5CA" />
         <WidgetStyle name="Change History saved" styleID="0" fgColor="A6DA95" bgColor="A6DA95" />
-        <WidgetStyle name="EOL custom color" styleID="0" fgColor="A5ADCB" />
-        <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="6E738D" />
     </GlobalStyles>
 </NotepadPlus>
