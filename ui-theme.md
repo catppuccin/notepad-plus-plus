@@ -1,5 +1,5 @@
-# Changing UI Colors
 
+# Changing UI Colors
 Notepad++ has limited support for customizing the UI elements.
 Some elements are controlled by the Windows theme (menu dropdowns, scrollbars, etc.) and can't be changed.
 
@@ -41,3 +41,4 @@ Replace the line beginning with `<GUIConfig name="DarkMode">` with the desired f
 ```
 
 </details>
+
