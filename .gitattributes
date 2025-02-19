@@ -1,2 +1,3 @@
 themes/* linguist-generated=true
+templates/**.tera linguist-language=xml
 ui-theme.md linguist-generated=true
