@@ -331,6 +331,7 @@
             <WordsStyle name="REFERENCE" styleID="5" fgColor="CA9EE6" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DOCUMENT" styleID="6" fgColor="F4B8E4" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="TEXT" styleID="7" fgColor="A6D189" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="9" fgColor="949CBB" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="ERROR" styleID="8" fgColor="E78284" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="props" desc="Properties file" ext="">
