@@ -243,7 +243,7 @@ whiskers:
             <WordsStyle name="F CHARACTER" styleID="17" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="F TRIPLE" styleID="18" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="F TRIPLEDOUBLE" styleID="19" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="BUILTINS" styleID="14" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="BUILTINS" styleID="14" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" keywordClass="instre2" />
 
         </LexerType>
         <LexerType name="batch" desc="Batch" ext="">
