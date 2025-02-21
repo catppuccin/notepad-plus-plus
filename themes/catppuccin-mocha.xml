@@ -193,7 +193,7 @@
             <WordsStyle name="COMPACT IRI" styleID="10" fgColor="A6E3A1" bgColor="1E1E2E" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="KEYWORD" styleID="11" fgColor="FAB387" bgColor="1E1E2E" fontName="" fontStyle="" fontSize="" keywordClass="instre1"/>
             <WordsStyle name="LD KEYWORD" styleID="12" fgColor="F9E2AF" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" >@version</WordsStyle>
-            <WordsStyle name="ERROR" styleID="13" fgColor="CDD6F4" bgColor="F38BA8" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="ERROR" styleID="13" fgColor="11111B" bgColor="F38BA8" fontName="" fontStyle="2" fontSize="" />
         </LexerType>
         <LexerType name="javascript" desc="JavaScript (embedded)" ext="">
             <WordsStyle name="DEFAULT" styleID="41" fgColor="CDD6F4" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
