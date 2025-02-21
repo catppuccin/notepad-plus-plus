@@ -225,19 +225,26 @@ whiskers:
         </LexerType>
         <LexerType name="python" desc="Python" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENTLINE" styleID="1" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="2" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTLINE" styleID="1" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="2" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="3" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="4" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="KEYWORDS" styleID="5" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="KEYWORDS" styleID="5" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
             <WordsStyle name="TRIPLE" styleID="6" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="TRIPLEDOUBLE" styleID="7" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CLASSNAME" styleID="8" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="DEFNAME" styleID="9" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENTBLOCK" styleID="12" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="DECORATOR" styleID="15" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="CLASS NAME" styleID="8" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEF NAME" styleID="9" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT BLOCK" styleID="12" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="DECORATOR" styleID="15" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="ATTRIBUTE" styleID="20" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="F STRING" styleID="16" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="F CHARACTER" styleID="17" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="F TRIPLE" styleID="18" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="F TRIPLEDOUBLE" styleID="19" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BUILTINS" styleID="14" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" keywordClass="instre2" />
+
         </LexerType>
         <LexerType name="batch" desc="Batch" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
