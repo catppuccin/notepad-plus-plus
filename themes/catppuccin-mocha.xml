@@ -183,7 +183,7 @@
             <WordsStyle name="DEFAULT" styleID="0" fgColor="CDD6F4" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="NUMBER" styleID="1" fgColor="FAB387" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="2" fgColor="A6E3A1" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING EOL" styleID="3" fgColor="CDD6F4" bgColor="F38BA8" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING EOL" styleID="3" fgColor="A6E3A1" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="PROPERTY NAME" styleID="4" fgColor="89B4FA" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="ESCAPE SEQUENCE" styleID="5" fgColor="F5C2E7" bgColor="1E1E2E" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="LINE COMMENT" styleID="6" fgColor="9399B2" bgColor="1E1E2E" fontName="" fontStyle="2" fontSize="" />
