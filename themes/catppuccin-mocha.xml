@@ -265,10 +265,11 @@
         </LexerType>
         <LexerType name="ini" desc="ini file" ext="cfg conf">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="CDD6F4" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="89B4FA" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="SECTION" styleID="2" fgColor="EBA0AC" bgColor="1E1E2E" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="ASSIGNMENT" styleID="3" fgColor="EBA0AC" bgColor="1E1E2E" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="9399B2" bgColor="1E1E2E" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="SECTION" styleID="2" fgColor="F9E2AF" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ASSIGNMENT" styleID="3" fgColor="89DCEB" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DEFVAL" styleID="4" fgColor="EBA0AC" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEY" styleID="5" fgColor="89B4FA" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="ruby" desc="Ruby" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="CDD6F4" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
