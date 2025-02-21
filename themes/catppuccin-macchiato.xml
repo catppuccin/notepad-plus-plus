@@ -323,7 +323,7 @@
             <WordsStyle name="LABEL" styleID="20" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="1" fontSize="" />
         </LexerType>
         <LexerType name="yaml" desc="YAML" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="IDENTIFIER" styleID="2" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="939AB7" bgColor="24273A" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="3" fgColor="F5A97F" bgColor="24273A" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
