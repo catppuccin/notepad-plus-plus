@@ -210,6 +210,23 @@ whiskers:
             <WordsStyle name="COMMENTLINE" styleID="43" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENTDOC" styleID="44" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="toml" desc="TOML" ext="toml">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="2" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORD" styleID="3" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TABLE" styleID="5" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEY" styleID="6" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ERROR" styleID="7" fgColor="{{ crust.hex }}" bgColor="{{ maroon.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="8" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING SQ" styleID="9" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING DQ" styleID="10" fgColor="{{ green.hex }}" bgColor="{{ base.hex}}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TRIPLE STRING SQ" styleID="11" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TRIPLE STRING DQ" styleID="12" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ESCAPE CHAR" styleID="13" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DATETIME" styleID="14" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="typescript" desc="TypeScript (embedded)" ext="">
             <WordsStyle name="DEFAULT" styleID="41" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="NUMBER" styleID="45" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
