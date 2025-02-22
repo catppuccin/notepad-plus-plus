@@ -202,7 +202,7 @@ whiskers:
             <WordsStyle name="URI" styleID="9" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="COMPACT IRI" styleID="10" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="KEYWORD" styleID="11" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="" fontSize="" keywordClass="instre1"/>
-            <WordsStyle name="LD KEYWORD" styleID="12" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" >@version</WordsStyle>
+            <WordsStyle name="LD KEYWORD" styleID="12" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" ></WordsStyle>
             <WordsStyle name="ERROR" styleID="13" fgColor="{{ crust.hex }}" bgColor="{{ red.hex }}" fontName="" fontStyle="2" fontSize="" />
         </LexerType>
         <LexerType name="javascript" desc="JavaScript (embedded)" ext="">
