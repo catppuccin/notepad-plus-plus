@@ -180,12 +180,20 @@
             <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="json" desc="JSON" ext="">
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING DOUBLE QUOTE" styleID="6" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING SINGLE QUOTE" styleID="7" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="BOOLEAN NULL" styleID="5" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="1" fgColor="FE640B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="2" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING EOL" styleID="3" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PROPERTY NAME" styleID="4" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ESCAPE SEQUENCE" styleID="5" fgColor="EA76CB" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="LINE COMMENT" styleID="6" fgColor="7C7F93" bgColor="EFF1F5" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="BLOCK COMMENT" styleID="7" fgColor="7C7F93" bgColor="EFF1F5" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="8" fgColor="7C7F93" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="URI" styleID="9" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="COMPACT IRI" styleID="10" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="KEYWORD" styleID="11" fgColor="FE640B" bgColor="EFF1F5" fontName="" fontStyle="" fontSize="" keywordClass="instre1"/>
+            <WordsStyle name="LD KEYWORD" styleID="12" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" ></WordsStyle>
+            <WordsStyle name="ERROR" styleID="13" fgColor="DCE0E8" bgColor="D20F39" fontName="" fontStyle="2" fontSize="" />
         </LexerType>
         <LexerType name="javascript" desc="JavaScript (embedded)" ext="">
             <WordsStyle name="DEFAULT" styleID="41" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
