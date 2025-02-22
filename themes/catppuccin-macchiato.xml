@@ -315,7 +315,7 @@
             <WordsStyle name="NUMBER" styleID="4" fgColor="F5A97F" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="91D7E3" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="939AB7" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="FUNC1" styleID="13" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="2" fontSize="" keywordClass="instre2" />
             <WordsStyle name="FUNC2" styleID="14" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="2" fontSize="" keywordClass="type1" />
             <WordsStyle name="FUNC3" styleID="15" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="2" fontSize="" keywordClass="type2" />

@@ -323,7 +323,7 @@ whiskers:
             <WordsStyle name="NUMBER" styleID="4" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="{{ sky.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="FUNC1" styleID="13" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" keywordClass="instre2" />
             <WordsStyle name="FUNC2" styleID="14" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" keywordClass="type1" />
             <WordsStyle name="FUNC3" styleID="15" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" keywordClass="type2" />
