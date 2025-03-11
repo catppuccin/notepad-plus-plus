@@ -65,7 +65,7 @@
             <WordsStyle name="RAW STRING" styleID="14" fgColor="F4B8E4" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="15" fgColor="A6D189" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="OPERATOR" styleID="16" fgColor="949CBB" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="17" fgColor="E5C890" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="17" fgColor="C6D0F5" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="LIFETIME" styleID="18" fgColor="8CAAEE" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="MACRO" styleID="19" fgColor="8CAAEE" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="LEXICAL ERROR" styleID="20" fgColor="232634" bgColor="EA999C" fontName="" fontStyle="0" fontSize="" />
