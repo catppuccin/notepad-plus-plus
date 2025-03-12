@@ -61,7 +61,7 @@ whiskers:
             <WordsStyle name="COMMENT" styleID="1" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMAND" styleID="2" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="HEADER" styleID="3" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="POSITION" styleID="4" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="POSITION" styleID="4" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="DELETED" styleID="5" fgColor="{{ red.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="ADDED" styleID="6" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>

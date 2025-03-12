@@ -51,7 +51,7 @@
             <WordsStyle name="COMMENT" styleID="1" fgColor="7C7F93" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMAND" styleID="2" fgColor="8839EF" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="HEADER" styleID="3" fgColor="1E66F5" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="POSITION" styleID="4" fgColor="DF8E1D" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="POSITION" styleID="4" fgColor="FE640B" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="DELETED" styleID="5" fgColor="D20F39" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="ADDED" styleID="6" fgColor="40A02B" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
