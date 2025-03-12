@@ -125,19 +125,31 @@
             <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="css" desc="CSS" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="TAG" styleID="1" fgColor="E64553" bgColor="EFF1F5" fontName="Batang" fontStyle="0" fontSize="" />
-            <WordsStyle name="CLASS" styleID="2" fgColor="04A5E5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="PSEUDOCLASS" styleID="3" fgColor="04A5E5" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="UNKNOWN_PSEUDOCLASS" styleID="4" fgColor="04A5E5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="5" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="6" fgColor="04A5E5" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="UNKNOWN_IDENTIFIER" styleID="7" fgColor="04A5E5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="VALUE" styleID="8" fgColor="8839EF" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="9" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="ID" styleID="10" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="IMPORTANT" styleID="11" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="DIRECTIVE" styleID="12" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="4C4F69" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAG" styleID="1" fgColor="1E66F5" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASS" styleID="2" fgColor="DF8E1D" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PSEUDOCLASS" styleID="3" fgColor="179299" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="UNKNOWN PSEUDOCLASS" styleID="4" fgColor="E64553" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="5" fgColor="7C7F93" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="6" fgColor="1E66F5" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="UNKNOWN IDENTIFIER" styleID="7" fgColor="1E66F5" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VALUE" styleID="8" fgColor="4C4F69" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="9" fgColor="7C7F93" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="ID" styleID="10" fgColor="DF8E1D" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IMPORTANT" styleID="11" fgColor="8839EF" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DIRECTIVE" styleID="12" fgColor="8839EF" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DOUBLE STRING" styleID="13" fgColor="40A02B" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SINGLE STRING" styleID="14" fgColor="40A02B" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <!-- <WordsStyle name="IDENTIFIER2" styleID="15" fgColor="4C4F69" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" /> -->
+            <WordsStyle name="ATTRIBUTE" styleID="16" fgColor="DF8E1D" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <!--WordsStyle name="IDENTIFIER3" styleID="17" fgColor="4C4F69" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" /-->
+            <WordsStyle name="PSEUDOELEMENT" styleID="18" fgColor="DF8E1D" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type3"/>
+            <!--WordsStyle name="EXTENDED_IDENTIFIER" styleID="19" fgColor="4C4F69" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" /-->
+            <!-- LEGACY_PSEUDOELEMENT == EXTENDED_PSEUDOCLASS -->
+            <WordsStyle name="LEGACY PSEUDOELEMENT" styleID="20" fgColor="DF8E1D" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
+            <!-- <WordsStyle name="EXTENDED_PSEUDOELEMENT" styleID="21" fgColor="DF8E1D" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" / -->
+            <WordsStyle name="MEDIA" styleID="22" fgColor="8839EF" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VARIABLE" styleID="23" fgColor="D20F39" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="c" desc="C" ext="cw">
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
