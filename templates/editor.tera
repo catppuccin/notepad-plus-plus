@@ -56,14 +56,14 @@ whiskers:
         <LexerType name="c" desc="C" ext="">
             <WordsStyle name="DEFAULT" styleID="11" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="{{ teal.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="REGEX" styleID="14" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="{{ overlay1.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
@@ -84,14 +84,14 @@ whiskers:
         <LexerType name="cpp" desc="C++" ext="">
             <WordsStyle name="DEFAULT" styleID="11" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="{{ teal.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="REGEX" styleID="14" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="{{ overlay1.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
