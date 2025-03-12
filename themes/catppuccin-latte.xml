@@ -609,6 +609,27 @@
             <WordsStyle name="Hit Word" styleID="4" fgColor="D20F39" bgColor="404357" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="Current line background colour" styleID="6" bgColor="404357" fontSize="" fontStyle="0" />
         </LexerType>
+        <LexerType name="srec" desc="S-Record" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="7C7F93" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="RECSTART" styleID="1" fgColor="8839EF" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="RECTYPE" styleID="2" fgColor="8839EF" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="RECTYPE_UNKNOWN" styleID="3" fgColor="DCE0E8" bgColor="E64553" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="BYTECOUNT" styleID="4" fgColor="FE640B" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BYTECOUNT_WRONG" styleID="5" fgColor="DCE0E8" bgColor="E64553" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NOADDRESS" styleID="6" fgColor="7C7F93" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DATAADDRESS" styleID="7" fgColor="1E66F5" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RECCOUNT" styleID="8" fgColor="40A02B" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STARTADDRESS" styleID="9" fgColor="DF8E1D" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ADDRESSFIELD_UNKNOWN" styleID="10" fgColor="DCE0E8" bgColor="E64553" fontName="" fontStyle="" fontSize="" />
+            <!-- EXTENDEDADDRESS 11 N/A -->
+            <WordsStyle name="DATA_ODD" styleID="12" fgColor="4C4F69" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DATA_EVEN" styleID="13" fgColor="6C6F85" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DATA_UNKNOWN" styleID="14" fgColor="D20F39" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DATA_EMPTY" styleID="15" fgColor="4C4F69" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHECKSUM" styleID="16" fgColor="179299" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHECKSUM_WRONG" styleID="17" fgColor="DCE0E8" bgColor="E64553" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="GARBAGE" styleID="18" fgColor="D20F39" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+        </LexerType>
         <LexerType name="erlang" desc="Erlang" ext="">
             <WordsStyle name="DEFAULT STYLE" styleID="0" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DEFAULT COMMENT" styleID="1" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
