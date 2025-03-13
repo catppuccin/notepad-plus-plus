@@ -37,14 +37,15 @@
 ## Usage
 
 1. Download your preferred flavor(s) from [`themes/`](./themes/).
-2. Move downloaded flavor(s) to `%AppData%\Notepad++\themes`.
-3. Select the desired theme in Settings > Style Configurator
-4. To customize the UI colors (non-editor area), follow the instructions for your flavor on this page: [`ui-theme.md`](./ui-theme.md)
+2. Move downloaded flavor(s) to NotePad++ theme directory (default: `%AppData%\Notepad++\themes`).
+3. To customize the UI colors (non-editor area), follow the instructions for your flavor on this page: [`ui-theme.md`](./ui-theme.md)
+4. Select the desired theme in Settings > Style Configurator
+5. Modify the Global Styles > Default Style to pick a font name and adjust default font size to your liking
 
 ## 💝 Thanks to
 
-- [Dracula Notepad++](https://github.com/dracula/notepad-plus-plus)
 - [InvitedToHell](https://github.com/InvitedToHell)
+- [jack-mil](https://github.com/jack-mil)
 - [Dukk](https://github.com/DakshG07)
 - [winston](https://github.com/nekowinston)
 
