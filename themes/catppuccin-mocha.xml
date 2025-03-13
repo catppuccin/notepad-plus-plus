@@ -46,6 +46,15 @@
             <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="89B4FA" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="89B4FA" bgColor="1E1E2E" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="diff" desc="diff file" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="CDD6F4" bgColor="1E1E2E" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="9399B2" bgColor="1E1E2E" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND" styleID="2" fgColor="89B4FA" bgColor="1E1E2E" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HEADER" styleID="3" fgColor="F5C2E7" bgColor="1E1E2E" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="POSITION" styleID="4" fgColor="FAB387" bgColor="1E1E2E" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DELETED" styleID="5" fgColor="F38BA8" bgColor="1E1E2E" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ADDED" styleID="6" fgColor="A6E3A1" bgColor="1E1E2E" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="rust" desc="Rust" ext="">
             <WordsStyle name="DEFAULT" styleID="32" fgColor="CDD6F4" bgColor="1E1E2E" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="WHITESPACE" styleID="0" fgColor="9399B2" bgColor="1E1E2E" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
