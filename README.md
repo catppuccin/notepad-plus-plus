@@ -12,7 +12,11 @@
 </p>
 
 <p align="center">
-  <img src="assets/preview.webp"/>
+  <img src="assets/preview_light.webp"/>
+</p>
+
+<p align="center">
+  <img src="assets/preview_dark.webp"/>
 </p>
 
 ## Previews
@@ -47,6 +51,7 @@
 - [InvitedToHell](https://github.com/InvitedToHell)
 - [Dukk](https://github.com/DakshG07)
 - [winston](https://github.com/nekowinston)
+- [grokdesigns](https://github.com/grokdesigns)
 
 &nbsp;
 
