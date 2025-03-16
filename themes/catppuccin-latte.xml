@@ -115,24 +115,6 @@
             <WordsStyle name="VALUE" styleID="19" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="ENTITY" styleID="10" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
-        <LexerType name="md" desc="MD" ext="">
-            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TYPEWORD" styleID="16" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING" styleID="6" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CHARACTER" styleID="7" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="VERBATIM" styleID="13" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="REGEX" styleID="14" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-        </LexerType>
         <LexerType name="css" desc="CSS" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="4C4F69" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="TAG" styleID="1" fgColor="1E66F5" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
@@ -301,7 +283,7 @@
             <WordsStyle name="DATETIME" styleID="14" fgColor="EA76CB" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="typescript" desc="TypeScript" ext="">
-        <WordsStyle name="DEFAULT" styleID="11" fgColor="4C4F69" bgColor="EFF1F5" fontName="" colorStyle="1" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="4C4F69" bgColor="EFF1F5" fontName="" colorStyle="1" fontStyle="0" fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="8839EF" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="8839EF" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
             <WordsStyle name="WINDOW INSTRUCTION" styleID="19" fgColor="1E66F5" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
@@ -703,7 +685,7 @@
             <WordsStyle name="USER DEFINE" styleID="14" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
         </LexerType>
         <LexerType name="nfo" desc="Dos Style" ext="">
-            <WordsStyle name="DEFAULT" styleID="32" fgColor="4C4F69" bgColor="EFF1F5" fontSize="" fontStyle="0" />
+            <WordsStyle name="DEFAULT" styleID="32" fgColor="4C4F69" bgColor="EFF1F5" colorStyle="0" fontSize="" fontStyle="0" />
         </LexerType>
     </LexerStyles>
     <GlobalStyles>
