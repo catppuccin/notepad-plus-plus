@@ -678,39 +678,39 @@ whiskers:
             <WordsStyle name="UNKNOWN: ERROR" styleID="31" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="verilog" desc="Verilog" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="TAGNAME" styleID="2" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="KEYWORD" styleID="7" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING" styleID="6" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="COMMENT LINE BANG" styleID="3" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="STRING EOL" styleID="12" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="USER" styleID="19" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAGNAME" styleID="2" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="KEYWORD" styleID="7" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="COMMENT LINE BANG" styleID="3" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="STRING EOL" styleID="12" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="USER" styleID="19" fgColor="{{ teal.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="vhdl" desc="VHDL" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="3" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING" styleID="4" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="5" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="6" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING EOL" styleID="7" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION" styleID="8" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="STD OPERATOR" styleID="9" fgColor="{{ sapphire.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
-            <WordsStyle name="ATTRIBUTE" styleID="10" fgColor="{{ rosewater.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="DIRECTIVE" styleID="9" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="DIRECTIVE OPERAND" styleID="10" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STD FUNCTION" styleID="11" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
-            <WordsStyle name="STD PACKAGE" styleID="12" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
-            <WordsStyle name="STD TYPE" styleID="13" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
-            <WordsStyle name="USER DEFINE" styleID="14" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="3" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="4" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="5" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="6" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING EOL" styleID="7" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION" styleID="8" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="STD OPERATOR" styleID="9" fgColor="{{ sky.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="ATTRIBUTE" styleID="10" fgColor="{{ red.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="DIRECTIVE" styleID="9" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DIRECTIVE OPERAND" styleID="10" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STD FUNCTION" styleID="11" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+            <WordsStyle name="STD PACKAGE" styleID="12" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
+            <WordsStyle name="STD TYPE" styleID="13" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
+            <WordsStyle name="USER DEFINE" styleID="14" fgColor="{{ teal.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
         </LexerType>
         <LexerType name="nfo" desc="Dos Style" ext="">
             <WordsStyle name="DEFAULT" styleID="32" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontSize="" fontStyle="0" />
