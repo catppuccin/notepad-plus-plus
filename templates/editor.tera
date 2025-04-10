@@ -158,24 +158,6 @@ whiskers:
             <WordsStyle name="USER ATTRIBUTES3" styleID="198" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
             <WordsStyle name="USER ATTRIBUTES4" styleID="199" fgColor="{{ flamingo.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
         </LexerType>
-        <LexerType name="md" desc="MD" ext="">
-            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TYPEWORD" styleID="16" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING" styleID="6" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CHARACTER" styleID="7" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="VERBATIM" styleID="13" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="REGEX" styleID="14" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-        </LexerType>
         <LexerType name="css" desc="CSS" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="TAG" styleID="1" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
@@ -362,7 +344,7 @@ whiskers:
             <WordsStyle name="DATETIME" styleID="14" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="typescript" desc="TypeScript" ext="">
-        <WordsStyle name="DEFAULT" styleID="11" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" colorStyle="1" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" colorStyle="1" fontStyle="0" fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
             <WordsStyle name="WINDOW INSTRUCTION" styleID="19" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
@@ -764,7 +746,7 @@ whiskers:
             <WordsStyle name="USER DEFINE" styleID="14" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
         </LexerType>
         <LexerType name="nfo" desc="Dos Style" ext="">
-            <WordsStyle name="DEFAULT" styleID="32" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontSize="" fontStyle="0" />
+            <WordsStyle name="DEFAULT" styleID="32" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="0" fontSize="" fontStyle="0" />
         </LexerType>
     </LexerStyles>
     <GlobalStyles>
