@@ -1,6 +1,7 @@
-name: Whiskers Check
+name: whiskers
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
   pull_request:
@@ -11,9 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: catppuccin/setup-whiskers@v1
-        with:
-          whiskers-version: 2.5.1
+      - uses: catppuccin/setup-whiskers@v2
       - run: |
           whiskers templates/editor.tera --check
           whiskers templates/ui.tera --check ui-theme.md
