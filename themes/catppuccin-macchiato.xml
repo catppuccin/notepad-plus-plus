@@ -645,11 +645,11 @@
             <WordsStyle name="SYNTAX ERROR" styleID="12" fgColor="CAD3F5" bgColor="ED8796" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="searchResult" desc="Search result" ext="">
-            <WordsStyle name="Search Header" styleID="1" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="File Header" styleID="2" fgColor="EED49F" bgColor="24273A" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="Line Number" styleID="3" fgColor="C6A0F6" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="Hit Word" styleID="4" fgColor="ED8796" bgColor="404357" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="Current line background colour" styleID="6" bgColor="404357" fontSize="" fontStyle="0" />
+            <WordsStyle name="Search Header" styleID="1" fgColor="8BD5CA" bgColor="24273A"  colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="File Header" styleID="2" fgColor="EED49F" bgColor="24273A"  colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="Line Number" styleID="3" fgColor="C6A0F6" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="Hit Word" styleID="4" fgColor="ED8796" bgColor="35394D" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="Current line background colour" styleID="6" bgColor="35394D" />
         </LexerType>
         <LexerType name="srec" desc="S-Record" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="939AB7" bgColor="24273A" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
