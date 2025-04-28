@@ -402,27 +402,27 @@
             <WordsStyle name="KEY" styleID="5" fgColor="8CAAEE" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="ruby" desc="Ruby" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="C6D0F5" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="ERROR" styleID="1" fgColor="A6D189" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENTLINE" styleID="2" fgColor="8CAAEE" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="POD" styleID="3" fgColor="8CAAEE" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="CA9EE6" bgColor="303446" fontName="" fontStyle="0" fontSize="">if else for while</WordsStyle>
-            <WordsStyle name="INSTRUCTION" styleID="5" fgColor="EA999C" bgColor="303446" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">bool long int char</WordsStyle>
-            <WordsStyle name="STRING" styleID="6" fgColor="A6D189" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CHARACTER" styleID="7" fgColor="A6D189" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CLASS NAME" styleID="8" fgColor="EA999C" bgColor="303446" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="DEF NAME" styleID="9" fgColor="A6D189" bgColor="303446" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="C6D0F5" bgColor="303446" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="A6D189" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="REGEX" styleID="12" fgColor="99D1DB" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="GLOBAL" styleID="13" fgColor="EA999C" bgColor="303446" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="SYMBOL" styleID="14" fgColor="C6D0F5" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="MODULE NAME" styleID="15" fgColor="EA999C" bgColor="303446" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="INSTANCE VAR" styleID="16" fgColor="A6D189" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CLASS VAR" styleID="17" fgColor="A6D189" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="BACKTICKS" styleID="18" fgColor="EA999C" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="DATA SECTION" styleID="19" fgColor="EA999C" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING Q" styleID="24" fgColor="A6D189" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="C6D0F5" bgColor="303446" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ERROR" styleID="1" fgColor="232634" bgColor="E78284" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="949CBB" bgColor="303446" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="POD" styleID="3" fgColor="C6D0F5" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" /> <!--No idea what this is -->
+            <WordsStyle name="NUMBER" styleID="4" fgColor="EF9F76" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION" styleID="5" fgColor="CA9EE6" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1">require include</WordsStyle>
+            <WordsStyle name="STRING" styleID="6" fgColor="A6D189" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="A6D189" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASS NAME" styleID="8" fgColor="E5C890" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEF NAME" styleID="9" fgColor="8CAAEE" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="99D1DB" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="C6D0F5" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="12" fgColor="F4B8E4" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="GLOBAL" styleID="13" fgColor="C6D0F5" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SYMBOL" styleID="14" fgColor="E78284" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="MODULE NAME" styleID="15" fgColor="E5C890" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTANCE VAR" styleID="16" fgColor="EA999C" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASS VAR" styleID="17" fgColor="EA999C" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BACKTICKS" styleID="18" fgColor="8CAAEE" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DATA SECTION" styleID="19" fgColor="B5BFE2" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING Q" styleID="24" fgColor="A6D189" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="bash" desc="bash" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="C6D0F5" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
