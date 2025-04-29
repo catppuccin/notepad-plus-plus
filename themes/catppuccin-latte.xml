@@ -590,22 +590,22 @@
             <WordsStyle name="INFIX" styleID="10" fgColor="8839EF" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="IDENTIFIER" styleID="9" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
-        <LexerType name="autoit" desc="autoIt" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT LINE" styleID="1" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="2" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="3" fgColor="8839EF" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="">import</WordsStyle>
-            <WordsStyle name="FUNCTION" styleID="4" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" keywordClass="instre2">import</WordsStyle>
-            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="MACRO" styleID="6" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="STRING" styleID="7" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="8" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="VARIABLE" styleID="9" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="SENT" styleID="10" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
-            <WordsStyle name="PREPROCESSOR" styleID="11" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
-            <WordsStyle name="SPECIAL" styleID="12" fgColor="8839EF" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
-            <WordsStyle name="EXPAND" styleID="13" fgColor="8839EF" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
-            <WordsStyle name="COMOBJ" styleID="14" fgColor="8839EF" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
+        <LexerType name="autoit" desc="AutoIt" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="4C4F69" bgColor="EFF1F5" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="1" fgColor="7C7F93" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="2" fgColor="7C7F93" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="3" fgColor="FE640B" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="FUNCTION" styleID="4" fgColor="1E66F5" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="8839EF" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="MACRO" styleID="6" fgColor="DC8A78" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="STRING" styleID="7" fgColor="40A02B" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="8" fgColor="7C7F93" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VARIABLE" styleID="9" fgColor="E64553" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SENT" styleID="10" fgColor="179299" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+            <WordsStyle name="PREPROCESSOR" styleID="11" fgColor="DF8E1D" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
+            <WordsStyle name="SPECIAL" styleID="12" fgColor="000000" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
+            <WordsStyle name="EXPAND" styleID="13" fgColor="000000" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
+            <WordsStyle name="COMOBJ" styleID="14" fgColor="000000" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="vb" desc="VB / VBS" ext="">
             <WordsStyle name="DEFAULT" styleID="7" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
