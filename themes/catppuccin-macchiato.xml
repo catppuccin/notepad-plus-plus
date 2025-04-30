@@ -618,16 +618,16 @@
             <WordsStyle name="DATE" styleID="8" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="kix" desc="KiXtart" ext="">
-            <WordsStyle name="DEFAULT" styleID="31" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING" styleID="2" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING2" styleID="3" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="C6A0F6" bgColor="24273A" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="VAR" styleID="5" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="MACRO" styleID="6" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="7" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="FUNCTION" styleID="8" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="OPERATOR" styleID="9" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="31" fgColor="CAD3F5" bgColor="24273A" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="939AB7" bgColor="24273A" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="STRING" styleID="2" fgColor="A6DA95" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING2" styleID="3" fgColor="A6DA95" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="F5A97F" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VAR" styleID="5" fgColor="CAD3F5" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="MACRO" styleID="6" fgColor="F4DBD6" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="7" fgColor="C6A0F6" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="FUNCTION" styleID="8" fgColor="8AADF4" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="OPERATOR" styleID="9" fgColor="939AB7" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="latex" desc="LaTeX" ext="">
             <WordsStyle name="WHITE SPACE" styleID="0" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
