@@ -611,14 +611,14 @@
             <WordsStyle name="COMOBJ" styleID="14" fgColor="000000" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="vb" desc="VB / VBS" ext="">
-            <WordsStyle name="DEFAULT" styleID="7" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="2" fgColor="C6A0F6" bgColor="24273A" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="WORD" styleID="3" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="STRING" styleID="4" fgColor="A6DA95" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="PREPROCESSOR" styleID="5" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="6" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="DATE" styleID="8" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="7" fgColor="CAD3F5" bgColor="24273A" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="939AB7" bgColor="24273A" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="2" fgColor="F5A97F" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="WORD" styleID="3" fgColor="C6A0F6" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="STRING" styleID="4" fgColor="A6DA95" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="5" fgColor="EED49F" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="6" fgColor="939AB7" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DATE" styleID="8" fgColor="F5BDE6" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="kix" desc="KiXtart" ext="">
             <WordsStyle name="DEFAULT" styleID="31" fgColor="CAD3F5" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
