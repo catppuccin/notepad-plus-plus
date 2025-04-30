@@ -655,11 +655,11 @@ whiskers:
             <WordsStyle name="SYNTAX ERROR" styleID="12" fgColor="{{ text.hex }}" bgColor="{{ red.hex }}" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="searchResult" desc="Search result" ext="">
-            <WordsStyle name="Search Header" styleID="1" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="File Header" styleID="2" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="Line Number" styleID="3" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="Hit Word" styleID="4" fgColor="{{ red.hex }}" bgColor="404357" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="Current line background colour" styleID="6" bgColor="404357" fontSize="" fontStyle="0" />
+            <WordsStyle name="Search Header" styleID="1" fgColor="{{ teal.hex }}" bgColor="{{ base.hex }}"  colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="File Header" styleID="2" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}"  colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="Line Number" styleID="3" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="Hit Word" styleID="4" fgColor="{{ red.hex }}" bgColor="{{ line.hex }}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="Current line background colour" styleID="6" bgColor="{{ line.hex }}" />
         </LexerType>
         <LexerType name="srec" desc="S-Record" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
