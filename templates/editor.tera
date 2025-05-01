@@ -523,13 +523,13 @@ whiskers:
             <WordsStyle name="OPERATOR" styleID="127" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="makefile" desc="Makefile" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="PREPROCESSOR" styleID="2" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="3" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="4" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="TARGET" styleID="5" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="IDEOL" styleID="9" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="2" fgColor="{{ rosewater.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="3" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="4" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TARGET" styleID="5" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDEOL" styleID="9" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="powershell" desc="PowerShell" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
