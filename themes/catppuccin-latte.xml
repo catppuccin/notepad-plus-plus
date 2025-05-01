@@ -633,19 +633,19 @@
             <WordsStyle name="OPERATOR" styleID="9" fgColor="7C7F93" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="latex" desc="LaTeX" ext="">
-            <WordsStyle name="WHITE SPACE" styleID="0" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMAND" styleID="1" fgColor="40A02B" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="TAG OPENING" styleID="2" fgColor="04A5E5" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="MATH INLINE" styleID="3" fgColor="D20F39" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="4" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="TAG CLOSING" styleID="5" fgColor="04A5E5" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="MATH BLOCK" styleID="6" fgColor="D20F39" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT BLOCK" styleID="7" fgColor="1E66F5" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="VERBATIM SEGMENT" styleID="8" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="SHORT COMMAND" styleID="9" fgColor="8839EF" bgColor="EFF1F5" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="SPECIAL CHAR" styleID="10" fgColor="FE640B" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMAND OPTIONAL ARGUMENT" styleID="11" fgColor="E64553" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="SYNTAX ERROR" styleID="12" fgColor="4C4F69" bgColor="D20F39" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="4C4F69" bgColor="EFF1F5" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND" styleID="1" fgColor="8839EF" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SHORT COMMAND" styleID="9" fgColor="40A02B" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="4" fgColor="7C7F93" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="COMMENT BLOCK" styleID="7" fgColor="7C7F93" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="TAG OPENING" styleID="2" fgColor="D20F39" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAG CLOSING" styleID="5" fgColor="D20F39" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="MATH INLINE" styleID="3" fgColor="DF8E1D" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="MATH BLOCK" styleID="6" fgColor="DF8E1D" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VERBATIM SEGMENT" styleID="8" fgColor="5C5F77" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SPECIAL CHAR" styleID="10" fgColor="EA76CB" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND OPTIONAL ARGUMENT" styleID="11" fgColor="179299" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SYNTAX ERROR" styleID="12" fgColor="DCE0E8" bgColor="E64553" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="searchResult" desc="Search result" ext="">
             <WordsStyle name="Search Header" styleID="1" fgColor="179299" bgColor="EFF1F5"  colorStyle="1" fontName="" fontStyle="0" fontSize="" />
@@ -674,6 +674,14 @@
             <WordsStyle name="CHECKSUM" styleID="16" fgColor="179299" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHECKSUM_WRONG" styleID="17" fgColor="DCE0E8" bgColor="E64553" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="GARBAGE" styleID="18" fgColor="D20F39" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+        </LexerType>
+        <LexerType name="tex" desc="TeX" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="7C7F93" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="SPECIAL" styleID="1" fgColor="6C6F85" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="GROUP" styleID="2" fgColor="40A02B" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SYMBOL" styleID="3" fgColor="6C6F85" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND" styleID="4" fgColor="8839EF" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TEXT" styleID="5" fgColor="4C4F69" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="erlang" desc="Erlang" ext="">
             <WordsStyle name="DEFAULT STYLE" styleID="0" fgColor="4C4F69" bgColor="EFF1F5" fontName="" fontStyle="0" fontSize="" />
