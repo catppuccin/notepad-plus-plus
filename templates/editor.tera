@@ -674,18 +674,39 @@ whiskers:
             <WordsStyle name="Current line background colour" styleID="6" bgColor="{{ line.hex }}" />
         </LexerType>
         <LexerType name="srec" desc="S-Record" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="RECSTART" styleID="1" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="RECTYPE" styleID="2" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="RECTYPE_UNKNOWN" styleID="3" fgColor="{{ crust.hex }}" bgColor="{{ maroon.hex }}" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="0" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="RECSTART" styleID="1" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RECTYPE" styleID="2" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RECTYPE_UNKNOWN" styleID="3" fgColor="{{ crust.hex }}" bgColor="{{ maroon.hex }}" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="BYTECOUNT" styleID="4" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="BYTECOUNT_WRONG" styleID="5" fgColor="{{ crust.hex }}" bgColor="{{ maroon.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BYTECOUNT_WRONG" styleID="5" fgColor="{{ crust.hex }}" bgColor="{{ maroon.hex }}" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="NOADDRESS" styleID="6" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DATAADDRESS" styleID="7" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="RECCOUNT" styleID="8" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STARTADDRESS" styleID="9" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="ADDRESSFIELD_UNKNOWN" styleID="10" fgColor="{{ crust.hex }}" bgColor="{{ maroon.hex }}" fontName="" fontStyle="" fontSize="" />
+            <WordsStyle name="ADDRESSFIELD_UNKNOWN" styleID="10" fgColor="{{ crust.hex }}" bgColor="{{ maroon.hex }}" fontName="" fontStyle="1" fontSize="" />
             <!-- EXTENDEDADDRESS 11 N/A -->
+            <WordsStyle name="DATA_ODD" styleID="12" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DATA_EVEN" styleID="13" fgColor="{{ subtext0.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DATA_UNKNOWN" styleID="14" fgColor="{{ red.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DATA_EMPTY" styleID="15" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHECKSUM" styleID="16" fgColor="{{ teal.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHECKSUM_WRONG" styleID="17" fgColor="{{ crust.hex }}" bgColor="{{ maroon.hex }}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="GARBAGE" styleID="18" fgColor="{{ red.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+        </LexerType>
+        <LexerType name="ihex" desc="Intel HEX" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="0" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="RECSTART" styleID="1" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RECTYPE" styleID="2" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RECTYPE_UNKNOWN" styleID="3" fgColor="{{ crust.hex }}" bgColor="{{ maroon.hex }}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="BYTECOUNT" styleID="4" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BYTECOUNT_WRONG" styleID="5" fgColor="{{ crust.hex }}" bgColor="{{ maroon.hex }}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="NOADDRESS" styleID="6" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DATAADDRESS" styleID="7" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <!-- RECCOUNT 8 N/A -->
+            <WordsStyle name="STARTADDRESS" styleID="9" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ADDRESSFIELD_UNKNOWN" styleID="10" fgColor="{{ crust.hex }}" bgColor="{{ maroon.hex }}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="EXTENDEDADDRESS" styleID="11" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DATA_ODD" styleID="12" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DATA_EVEN" styleID="13" fgColor="{{ subtext0.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DATA_UNKNOWN" styleID="14" fgColor="{{ red.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
