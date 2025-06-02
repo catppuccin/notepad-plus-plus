@@ -612,6 +612,22 @@ whiskers:
             <WordsStyle name="INFIX" styleID="10" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="IDENTIFIER" styleID="9" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="registry" desc="Registry" ext="">
+            <WordsStyle name="DEFAULT STYLE" styleID="32" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="VALUE NAME" styleID="2" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="3" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="HEX DIGIT" styleID="4" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VALUE TYPE" styleID="5" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ADDED KEY" styleID="6" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REMOVED KEY" styleID="7" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ESCAPED CHARACTERS IN STRINGS" styleID="8" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="GUID IN KEY PATH" styleID="9" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="GUID IN STRING" styleID="10" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PARAMETER" styleID="11" fgColor="{{ teal.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATORS" styleID="12" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="1" fontSize="" />
+        </LexerType>
         <LexerType name="autoit" desc="AutoIt" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="1" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
