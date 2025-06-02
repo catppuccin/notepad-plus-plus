@@ -403,6 +403,21 @@
             <WordsStyle name="DEFVAL" styleID="4" fgColor="EE99A0" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="KEY" styleID="5" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="inno" desc="InnoSetup" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="CAD3F5" bgColor="24273A" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="939AB7" bgColor="24273A" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="KEYWORD" styleID="2" fgColor="C6A0F6" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="PARAMETER" styleID="3" fgColor="EE99A0" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="SECTION" styleID="4" fgColor="EED49F" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="PREPROCESSOR" styleID="5" fgColor="F4DBD6" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+            <WordsStyle name="PREPROCESSOR INLINE" styleID="6" fgColor="F5BDE6" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT PASCAL" styleID="7" fgColor="939AB7" bgColor="24273A" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="KEYWORD PASCAL" styleID="8" fgColor="C6A0F6" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
+            <WordsStyle name="KEYWORD USER" styleID="9" fgColor="8AADF4" bgColor="24273A" fontName="" fontStyle="1" fontSize="" keywordClass="type4" />
+            <WordsStyle name="STRING DOUBLE" styleID="10" fgColor="A6DA95" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING SINGLE" styleID="11" fgColor="A6DA95" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="12" fgColor="CAD3F5" bgColor="24273A" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="ruby" desc="Ruby" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="CAD3F5" bgColor="24273A" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="ERROR" styleID="1" fgColor="181926" bgColor="ED8796" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
