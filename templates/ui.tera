@@ -11,10 +11,25 @@ whiskers:
 Notepad++ has limited support for customizing the UI elements.
 Some elements are controlled by the Windows theme (menu dropdowns, scrollbars, etc.) and can't be changed.
 
-You can theme the supported elements by modifying a line in the file `%AppData%/Notepad++/config.xml`.
-Replace the line beginning with `<GUIConfig name="DarkMode">` with the desired flavor.
+Some aspects of the color theme can optionally be enabled in the UI settings dialog:
+- Preferences > Editing 1
+  - Apply custom color to selected text foreground
+- Preferences > Editing 2
+  - EOL (CRLF) > Custom Color
+  - Non-Printing Characters > Appearance > Custom Color
+  - Non-Printing Characters > Apply Appearance to C0, C1, EOL
+- Preferences > Toolbar > Pick an icon theme
+  - Pick "Complete" or "Partial" Colorization
+  - Color choice > Custom
+- Preferences > Margins/Border/Edge > Pick what you like
 
-> [!NOTE]
+You can theme the UI elements by modifying a line in the config file (Default: `%AppData%/Notepad++/config.xml`)
+
+Replace the line beginning with `<GUIConfig name="DarkMode" ...>` with the desired flavor.
+
+Some options may not be available in older versions of Notepad++. If you recently updated, add this line to the config again, as older versions will delete unused properties.
+
+> [!WARNING]
 > You cannot use Notepad++ to make this change, as it will overwrite any changes to `config.xml` when closing.
 
 {% for id, flavor in flavors -%}
@@ -23,7 +38,7 @@ Replace the line beginning with `<GUIConfig name="DarkMode">` with the desired f
 <summary>{{ flavor.emoji }} {{ flavor.name }}</summary>
 
 ```xml
-<GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="{{ self::bgr(c=l.base) }}" customColorMenuHotTrack="{{ self::bgr(c=l.surface1) }}" customColorActive="{{ self::bgr(c=l.mantle) }}" customColorMain="{{ self::bgr(c=l.crust) }}" customColorError="{{ self::bgr(c=l.red) }}" customColorText="{{ self::bgr(c=l.text) }}" customColorDarkText="{{ self::bgr(c=l.subtext1) }}" customColorDisabledText="{{ self::bgr(c=l.subtext0) }}" customColorLinkText="{{ self::bgr(c=l.blue)}}" customColorEdge="{{ self::bgr(c=l.overlay1) }}" customColorHotEdge="{{ self::bgr(c=l.overlay2) }}" customColorDisabledEdge="{{ self::bgr(c=l.overlay0) }}" enableWindowsMode="no" darkThemeName="catppuccin-{{ flavor.identifier }}.xml" darkToolBarIconSet="2" darkTabIconSet="2" darkTabUseTheme="yes" lightThemeName="catppuccin-{{ flavor.identifier }}.xml" lightToolBarIconSet="4" lightTabIconSet="0" lightTabUseTheme="yes" />
+<GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="{{ self::bgr(c=l.base) }}" customColorMenuHotTrack="{{ self::bgr(c=l.surface1) }}" customColorActive="{{ self::bgr(c=l.mantle) }}" customColorMain="{{ self::bgr(c=l.crust) }}" customColorError="{{ self::bgr(c=l.red) }}" customColorText="{{ self::bgr(c=l.text) }}" customColorDarkText="{{ self::bgr(c=l.subtext1) }}" customColorDisabledText="{{ self::bgr(c=l.subtext0) }}" customColorLinkText="{{ self::bgr(c=l.blue)}}" customColorEdge="{{ self::bgr(c=l.overlay1) }}" customColorHotEdge="{{ self::bgr(c=l.overlay2) }}" customColorDisabledEdge="{{ self::bgr(c=l.overlay0) }}" enableWindowsMode="no" darkThemeName="catppuccin-{{ flavor.identifier }}.xml" darkToolBarIconSet="0" darkTbFluentColor="9" darkTbFluentCustomColor="{{ self::bgr(c=l.mauve) }}" darkTbFluentMono="{{ if(cond=flavor.dark, t="no", f="yes") }}" darkTabIconSet="2" darkTabUseTheme="yes" lightThemeName="catppuccin-{{ flavor.identifier }}.xml" lightToolBarIconSet="0" lightTbFluentColor="9" lightTbFluentCustomColor="{{ self::bgr(c=flavors.latte.colors.mauve) }}" lightTbFluentMono="no" lightTabIconSet="2" lightTabUseTheme="yes" />
 ```
 
 </details>
