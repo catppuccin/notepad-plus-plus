@@ -105,9 +105,11 @@ whiskers:
             <WordsStyle name="LIFETIME" styleID="18" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="MACRO" styleID="19" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="LEXICAL ERROR" styleID="20" fgColor="{{ crust.hex }}" bgColor="{{ maroon.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="BYTE STRING" styleID="21" fgColor="{{ teal.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="RAW BYTE STRING" styleID="22" fgColor="{{ teal.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="BYTE CHARACTER" styleID="23" fgColor="{{ teal.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BYTE STRING" styleID="21" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RAW BYTE STRING" styleID="22" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BYTE CHARACTER" styleID="23" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="C STRING" styleID="24" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" colorStyle="1" fontStyle="0" fontSize="" />
+            <WordsStyle name="RAW C STRING" styleID="25" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" colorStyle="1" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="xml" desc="XML" ext="xaml svg xul vcxproj csproj vbproj fsproj lsxtproj shproj xproj ccproj jsproj sqlproj dbproj msbuildproj props">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="0" fontName="" fontStyle="0" fontSize="" />

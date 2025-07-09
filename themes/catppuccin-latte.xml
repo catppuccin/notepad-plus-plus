@@ -95,9 +95,11 @@
             <WordsStyle name="LIFETIME" styleID="18" fgColor="1E66F5" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="MACRO" styleID="19" fgColor="1E66F5" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="LEXICAL ERROR" styleID="20" fgColor="DCE0E8" bgColor="E64553" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="BYTE STRING" styleID="21" fgColor="179299" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="RAW BYTE STRING" styleID="22" fgColor="179299" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="BYTE CHARACTER" styleID="23" fgColor="179299" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BYTE STRING" styleID="21" fgColor="40A02B" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RAW BYTE STRING" styleID="22" fgColor="40A02B" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BYTE CHARACTER" styleID="23" fgColor="40A02B" bgColor="EFF1F5" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="C STRING" styleID="24" fgColor="40A02B" bgColor="EFF1F5" fontName="" colorStyle="1" fontStyle="0" fontSize="" />
+            <WordsStyle name="RAW C STRING" styleID="25" fgColor="40A02B" bgColor="EFF1F5" fontName="" colorStyle="1" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="xml" desc="XML" ext="xaml svg xul vcxproj csproj vbproj fsproj lsxtproj shproj xproj ccproj jsproj sqlproj dbproj msbuildproj props">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="4C4F69" bgColor="EFF1F5" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
