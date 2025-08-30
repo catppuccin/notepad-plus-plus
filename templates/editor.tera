@@ -633,17 +633,22 @@ whiskers:
             <WordsStyle name="ASM" styleID="14" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="r" desc="R" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="2" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="BASE WORD" styleID="3" fgColor="{{ sky.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
-            <WordsStyle name="KEYWORD" styleID="4" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="NUMBER" styleID="5" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING" styleID="6" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING2" styleID="7" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="8" fgColor="{{ maroon.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="INFIX" styleID="10" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="9" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="2" fgColor="{{ mauve.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="BASE WORD" styleID="3" fgColor="{{ blue.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="KEYWORD" styleID="4" fgColor="{{ yellow.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="NUMBER" styleID="5" fgColor="{{ peach.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING2" styleID="7" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="8" fgColor="{{ overlay2.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="9" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INFIX" styleID="10" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="INFIXEOL" styleID="11" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BACKTICKS" styleID="12" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RAWSTRING" styleID="13" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RAWSTRING2" styleID="14" fgColor="{{ green.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ESCAPESEQUENCE" styleID="15" fgColor="{{ pink.hex }}" bgColor="{{ base.hex }}" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="registry" desc="Registry" ext="">
             <WordsStyle name="DEFAULT STYLE" styleID="32" fgColor="{{ text.hex }}" bgColor="{{ base.hex }}" colorStyle="0" fontName="" fontStyle="0" fontSize="" />

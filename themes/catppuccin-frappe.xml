@@ -623,17 +623,22 @@
             <WordsStyle name="ASM" styleID="14" fgColor="F4B8E4" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="r" desc="R" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="C6D0F5" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="8CAAEE" bgColor="303446" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="2" fgColor="EA999C" bgColor="303446" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="BASE WORD" styleID="3" fgColor="99D1DB" bgColor="303446" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
-            <WordsStyle name="KEYWORD" styleID="4" fgColor="A6D189" bgColor="303446" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="NUMBER" styleID="5" fgColor="CA9EE6" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING" styleID="6" fgColor="A6D189" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING2" styleID="7" fgColor="A6D189" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="8" fgColor="EA999C" bgColor="303446" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="INFIX" styleID="10" fgColor="CA9EE6" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="9" fgColor="A6D189" bgColor="303446" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="C6D0F5" bgColor="303446" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="949CBB" bgColor="303446" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="2" fgColor="CA9EE6" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="BASE WORD" styleID="3" fgColor="8CAAEE" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="KEYWORD" styleID="4" fgColor="E5C890" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="NUMBER" styleID="5" fgColor="EF9F76" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="A6D189" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING2" styleID="7" fgColor="A6D189" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="8" fgColor="949CBB" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="9" fgColor="C6D0F5" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INFIX" styleID="10" fgColor="C6D0F5" bgColor="303446" colorStyle="1" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="INFIXEOL" styleID="11" fgColor="C6D0F5" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BACKTICKS" styleID="12" fgColor="C6D0F5" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RAWSTRING" styleID="13" fgColor="A6D189" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RAWSTRING2" styleID="14" fgColor="A6D189" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ESCAPESEQUENCE" styleID="15" fgColor="F4B8E4" bgColor="303446" colorStyle="1" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="registry" desc="Registry" ext="">
             <WordsStyle name="DEFAULT STYLE" styleID="32" fgColor="C6D0F5" bgColor="303446" colorStyle="0" fontName="" fontStyle="0" fontSize="" />
